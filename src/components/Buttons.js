@@ -1,0 +1,13 @@
+
+import React from 'react'
+
+const Buttons = ({name}) => {
+    return (
+        <div>
+            <button className="px-5 m-5 py-2 bg-gray-200 rounded-lg">
+                {name}</button>
+        </div>
+    )
+}
+
+export default Buttons
